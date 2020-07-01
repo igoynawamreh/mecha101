@@ -80,19 +80,17 @@ $GLOBALS['set_class'] = function($array, $content) {
 	foreach ($array as $k => $v) {
 		$tag = $array[$k][0];
 		$class = $array[$k][1];
-	    if (false !== strpos($content, '</' . $tag . '>')) {
-	        if (false !== strpos($content, '<' . $tag . ' ')) {
-	            $content = preg_replace_callback('/<' . $tag . '(\s[^>]*)?>/', function($m) use($class, $tag) {
-	                if (false !== strpos($m[1], ' class="')) {
-	                    $m[1] = str_replace(' class="', ' class="' . $class . ' ', $m[1]);
-	                } else {
-	                    $m[1] .= ' class="' . $class . '"';
-	                }
-	                return '<' . $tag . $m[1] . '>';
-	            }, $content);
-	        }
-	        $content = str_replace('<' . $tag . '>', '<' . $tag . ' class="' . $class . '">', $content);
-	    }
+		if (false !== strpos($content, '<' . $tag . ' ')) {
+			$content = preg_replace_callback('/<' . $tag . '(\s[^>]*)?>/', function($m) use($class, $tag) {
+				if (false !== strpos($m[1], ' class="')) {
+					$m[1] = str_replace(' class="', ' class="' . $class . ' ', $m[1]);
+				} else {
+					$m[1] .= ' class="' . $class . '"';
+				}
+				return '<' . $tag . $m[1] . '>';
+			}, $content);
+		}
+		$content = str_replace('<' . $tag . '>', '<' . $tag . ' class="' . $class . '">', $content);
 	}
     return $content;
 };
