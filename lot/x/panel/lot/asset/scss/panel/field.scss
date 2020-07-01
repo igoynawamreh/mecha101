@@ -1,0 +1,54 @@
+
+.field {
+  display: flex;
+  margin-right: -($x / 2);
+  margin-left: -($x / 2);
+  .description {
+    display: block;
+    font-size: ($z * .75);
+    line-height: 16px;
+    margin: 10px 0 0;
+    code {
+      font-size: ($z * .65);
+    }
+  }
+  .output {
+    display: inline-block;
+    vertical-align: middle;
+    border: 0;
+    background: none;
+    color: inherit;
+    width: auto;
+    height: auto;
+    font: inherit;
+    line-height: $h;
+    padding: ($y / 4) 0;
+    text-align: inherit;
+    position: relative;
+    z-index: 0;
+    &.width {
+      width: 100%;
+    }
+  }
+  > * {
+    margin: 0 ($x / 2);
+  }
+  > label {
+    display: block;
+    width: ($x * 5);
+    padding: ($y / 4) 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+    + br {
+      display: none;
+    }
+    + div,
+    + br + div {
+      display: block;
+      flex: 1;
+      position: relative;
+    }
+  }
+}

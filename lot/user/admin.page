@@ -1,0 +1,10 @@
+---
+author: Admin
+description: Description here.
+type: HTML
+email: 'admin@example.com'
+status: 1
+avatar: /lot/asset/png/photo.png
+...
+
+<p>About Admin.</p>

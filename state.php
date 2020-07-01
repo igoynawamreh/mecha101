@@ -1,0 +1,1 @@
+<?php return ['path'=>'/index','zone'=>'Asia/Jakarta','charset'=>'utf-8','direction'=>'ltr','title'=>'Site Title','description'=>'Site description.','language'=>'en','x'=>['panel'=>['path'=>'/page']]];

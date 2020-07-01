@@ -1,0 +1,11 @@
+---
+title: Project 4
+description: >
+  Vestibulum sit amet accumsan ipsum. Nulla fringilla lacinia dolor, a pharetra odio ullamcorper nec. Donec tincidunt dui
+  eros, nec gravida magna consectetur leo.
+author: '@admin'
+type: HTML
+featured_image: /lot/asset/png/featured-image.png
+...
+
+<p>Duis facilisis sapien eu est congue, vitae posuere turpis bibendum. Pellentesque id ligula euismod, euismod purus at, lacinia neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dignissim enim tortor, vitae aliquet augue molestie sit amet. Maecenas pharetra velit in vulputate tincidunt. Vivamus rutrum, magna eget imperdiet suscipit, erat felis maximus lorem, nec posuere diam nulla vel diam. Quisque libero ligula, accumsan vitae metus ac, fringilla gravida ex. Aenean elit quam, feugiat vitae scelerisque in, gravida in nisl. In hac habitasse platea dictumst. Proin placerat ipsum sit amet sollicitudin suscipit. Fusce gravida eu tellus nec finibus. Duis ut neque consectetur, imperdiet orci quis, viverra urna. Vestibulum dignissim malesuada dolor, non blandit justo iaculis at. Curabitur maximus pharetra efficitur. Donec maximus ante ut ipsum rhoncus fermentum non tincidunt nulla.</p><ul><li>List Item 1</li><li>List Item 2</li><li>List Item 3</li><li>List Item 4</li></ul><p>In et pretium augue, sed efficitur dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam rutrum dapibus eleifend. Praesent tortor orci, blandit iaculis augue quis, porta gravida sem. Curabitur venenatis tempus enim eu sodales. In imperdiet porttitor ligula, vitae varius magna lobortis malesuada. Nulla id dui ipsum.</p><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></blockquote><p>In et pretium augue, sed efficitur dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam rutrum dapibus eleifend. Praesent tortor orci, blandit iaculis augue quis, porta gravida sem. Curabitur venenatis tempus enim eu sodales. In imperdiet porttitor ligula, vitae varius magna lobortis malesuada. Nulla id dui ipsum.</p>

@@ -1,0 +1,6 @@
+/engine/log/
+/lot/cache/
+/lot/trash/
+
+.cache
+.alert
